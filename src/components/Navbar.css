@@ -1,0 +1,237 @@
+.navbar-wrapper {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  padding: 0 24px;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 8px 22px;
+  border: px solid rgba(255, 255, 255, 0.1);
+  border-radius: 28px;
+  background: rgba(35, 36, 42, 0.76);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
+}
+
+.navbar-logo {
+  flex-shrink: 0;
+  color: #f4f4f5;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-logo span {
+  color: #60a5fa;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.navbar-links a {
+  position: relative;
+  color: #b4b4be;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.navbar-links a:hover {
+  color: #ffffff;
+}
+
+.navbar-links a::after {
+  position: absolute;
+  right: 0;
+  bottom: -6px;
+  left: 0;
+  height: 2px;
+  content: '';
+  background: #60a5fa;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+.navbar-links a:hover::after {
+  transform: scaleX(1);
+}
+
+.navbar-cta,
+.mobile-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding: 11px 10px;
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  border-radius: 12px;
+  background: #3b82f6;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.navbar-cta:hover,
+.mobile-cta:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.navbar-cta span,
+.mobile-cta span {
+  font-size: 17px;
+}
+
+.navbar-menu-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  cursor: pointer;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.navbar-menu-btn:hover,
+.navbar-menu-btn.active {
+  background: rgba(96, 165, 250, 0.13);
+  border-color: rgba(96, 165, 250, 0.4);
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Tablet and mobile */
+@media (max-width: 900px) {
+  .navbar-wrapper {
+    top: 14px;
+    padding: 0 18px;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 12px 16px;
+    border-radius: 18px;
+  }
+
+  .navbar-links,
+  .navbar > .navbar-cta {
+    display: none;
+  }
+
+  .navbar-menu-btn {
+    display: inline-flex;
+    margin-left: auto;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition:
+      max-height 0.35s ease,
+      opacity 0.25s ease,
+      margin-top 0.35s ease;
+  }
+
+  .mobile-menu.open {
+    max-height: 430px;
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .mobile-menu > a:not(.mobile-cta) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 8px;
+    border-radius: 8px;
+    color: #d4d4d8;
+    font-size: 14px;
+    text-decoration: none;
+    transition:
+      color 0.2s ease,
+      background 0.2s ease;
+  }
+
+  .mobile-menu > a:not(.mobile-cta):hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #60a5fa;
+  }
+
+  .mobile-menu > a:not(.mobile-cta) span {
+    color: #71717a;
+  }
+
+  .mobile-menu .mobile-cta {
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-wrapper {
+    top: 12px;
+    padding: 0 12px;
+  }
+
+  .navbar {
+    padding: 10px 13px;
+  }
+
+  .navbar-logo {
+    font-size: 21px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar *,
+  .navbar *::before,
+  .navbar *::after {
+    transition: none !important;
+  }
+}

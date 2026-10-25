@@ -1,4 +1,5 @@
 import './App.css'
+import Hero from './components/Hero'
 import MagicRings from './components/MagicRings'
 import Navbar from './components/Navbar'
 
@@ -35,11 +36,8 @@ function App() {
       </div>
 <Navbar/>
       <main className="portfolio-content">
-        <section className="hero">
-          <h1>My Portfolio</h1>
-          <p>Frontend Developer | React.js | Next.js</p>
-        </section>
-        <div className="h-500"></div>
+        <Hero/>
+
       </main>
     </>
   )

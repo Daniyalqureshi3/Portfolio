@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Navbar.css'
-import { IoDownloadOutline } from "react-icons/io5";
+
 
 const navLinks = [
   { name: 'Home', href: '#home' },
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
 
         <a href="#contact" className="navbar-cta">
-          Let's Talk <span><IoDownloadOutline /></span>
+          Let's Talk <span></span>
         </a>
 
         <button

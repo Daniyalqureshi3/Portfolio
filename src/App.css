@@ -6,6 +6,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --font-stardom:"Stardom-Regular",serif;
+  --font-ClashDisplay:"ClashDisplay-Variable", serif;
     --font-heading: var(--font-sans);
     --font-sans: 'Geist Variable', sans-serif;
     --color-sidebar-ring: var(--sidebar-ring);
@@ -161,6 +163,29 @@ body {
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  padding: 40px;
+  /* padding: 90px; */
+  padding-top: 110px;
+  padding-left: 40px;
+  padding-right: 40px;
   color: #ffffff;
+}
+
+
+@font-face {
+  font-family: 'Stardom-Regular';
+  src: url('../fonts/Stardom-Regular.woff2') format('woff2'),
+       url('../fonts/Stardom-Regular.woff') format('woff'),
+       url('../fonts/Stardom-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Variable';
+  src: url('../fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Variable.woff') format('woff'),
+       url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
 }

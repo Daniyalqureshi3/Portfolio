@@ -1,10 +1,9 @@
 import React from 'react'
-import '@fontsource-variable/space-grotesk'
-import '@fontsource-variable/manrope'
 import { useState, useEffect } from 'react'
 import { IoLogoGithub } from "react-icons/io5";
 import { FaInstagramSquare } from "react-icons/fa";
-
+import { FaLinkedin } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Hero = () => {
 const titles = [
@@ -85,8 +84,8 @@ const titles = [
 
     
 <a
-  href="/Daniyal-CV.pdf"
-  download="Muhammad-Daniyal-CV.pdf"
+  href="/Muhammad-Daniyal.pdf"
+  download="Muhammad-Daniyal.pdf"
   className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl border border-sky-400/40 bg-slate-950 px-6 py-3 font-semibold text-white shadow-[0_0_15px_rgba(56,189,248,0.08)] transition-all duration-300 hover:border-sky-300 hover:shadow-[0_0_12px_rgba(56,189,248,0.45),0_0_30px_rgba(56,189,248,0.2)]"
 >
   <span className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-sky-300/15 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
@@ -95,7 +94,7 @@ const titles = [
 </a>
     </div>
     {/* socila media links */}
-    <div className="flex gap-5 items-center">
+    <div className="flex gap-5 items-center justify-center lg:justify-start mt-4">
       
 <a
   href="https://github.com/Daniyalqureshi3"
@@ -106,8 +105,38 @@ const titles = [
 >
   <IoLogoGithub className="h-6 w-6 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110" />
 </a>
+<a
+  href="https://www.instagram.com/daniyal_qureshi33.3/"
+  target="_blank"
+  rel="noreferrer"
+  aria-label="GitHub"
+  className="group flex h-12 w-12 items-center justify-center rounded-full border border-slate-700/80 bg-slate-900/80 text-gray-300 shadow-md transition-all duration-300 hover:scale-110 hover:border-sky-400 hover:bg-sky-400/10 hover:text-sky-400 hover:shadow-[0_0_20px_rgba(56,189,248,0.3)]"
+>
+  
+<FaInstagramSquare className="h-6 w-6 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110" />
+</a>
+<a
+  href="https://www.linkedin.com/in/daniyal-qureshi-824b53290/"
+  target="_blank"
+  rel="noreferrer"
+  aria-label="GitHub"
+  className="group flex h-12 w-12 items-center justify-center rounded-full border border-slate-700/80 bg-slate-900/80 text-gray-300 shadow-md transition-all duration-300 hover:scale-110 hover:border-sky-400 hover:bg-sky-400/10 hover:text-sky-400 hover:shadow-[0_0_20px_rgba(56,189,248,0.3)]"
+>
+  
+<FaLinkedin  className="h-6 w-6 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110" />
+</a>
+<a
+  href="mailto:danyalali607@gmail.com"
+  target="_blank"
+  rel="noreferrer"
+  aria-label="GitHub"
+  className="group flex h-12 w-12 items-center justify-center rounded-full border border-slate-700/80 bg-slate-900/80 text-gray-300 shadow-md transition-all duration-300 hover:scale-110 hover:border-sky-400 hover:bg-sky-400/10 hover:text-sky-400 hover:shadow-[0_0_20px_rgba(56,189,248,0.3)]"
+>
+  
+<MdOutlineEmail className="h-6 w-6 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110" />
+</a>
 
-      <a href="" className='h-12 w-12 rounded-full border-2 border-[#000f22] flex justify-center items-center bg-gray-900'><FaInstagramSquare className='h-7 w-7 rounded-full border-2 border-[#000f22]' /></a>
+
     </div>
 
   </div>

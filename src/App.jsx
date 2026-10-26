@@ -1,7 +1,9 @@
 import './App.css'
+import About from './components/About'
 import Hero from './components/Hero'
 import MagicRings from './components/MagicRings'
 import Navbar from './components/Navbar'
+import Technology from './components/Technology'
 
 function App() {
   return (
@@ -37,8 +39,10 @@ function App() {
 <Navbar/>
       <main className="portfolio-content">
         <Hero/>
-
+        <About/>
+        <Technology/>
       </main>
+
     </>
   )
 }

@@ -15,6 +15,7 @@ const Technology = () => {
                 <p>kjhkh</p>
                 <p>fnekkkkk</p>
             </div>
+            {/* add picture */}
 
 
       </div>

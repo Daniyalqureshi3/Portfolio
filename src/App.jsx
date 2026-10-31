@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/About'
 import Hero from './components/Hero'
+import Journey from './components/Journey'
 import MagicRings from './components/MagicRings'
 import Navbar from './components/Navbar'
 import Technology from './components/Technology'
@@ -41,6 +42,7 @@ function App() {
         <Hero/>
         <About/>
         <Technology/>
+        <Journey/>
       </main>
 
     </>

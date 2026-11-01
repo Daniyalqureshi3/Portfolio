@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Journey from './components/Journey'
 import MagicRings from './components/MagicRings'
 import Navbar from './components/Navbar'
+import Project from './components/Project'
 import Technology from './components/Technology'
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <About/>
         <Technology/>
         <Journey/>
+        <Project/>
       </main>
 
     </>

@@ -14,9 +14,13 @@ const Journey = () => {
     <div className="relative md:grid md:grid-cols-2 md:gap-12">
 <div className="absolute left-5 top-6 z-10 h-4 w-4 -translate-x-1/2 rounded-full border-2 border-blue-400 bg-[#0a0a0a] md:left-1/2"></div>
       <div className="ml-10 rounded-2xl border border-blue-400/20 bg-white/3 p-6 transition hover:border-blue-400/50 md:ml-0">
+      <div className="flex items-center justify-between">
         <span className="text-sm font-medium text-blue-400">Academic Education</span>
+        <span className="text-sm font-medium text-blue-400 underline">2024 to continue</span>
+
+      </div>
         <h3 className="mt-2 text-xl font-semibold text-[#F5E6CC]">BS Information Technology Engineering</h3>
-        <p className="mt-2 text-sm text-gray-400">Virtual University of Pakistan</p>
+        <p className="mt-2 text-md font-bold text-gray-400">Virtual University of Pakistan</p>
         <p className="mt-3 text-sm leading-6 text-gray-300">Currently pursuing my degree and building a strong foundation in technology.</p>
       </div>
     </div>
@@ -24,9 +28,14 @@ const Journey = () => {
     <div className="relative md:grid md:grid-cols-2 md:gap-12">
       <div className="absolute left-5 top-6 z-10 h-4 w-4 -translate-x-1/2 rounded-full border-2 border-blue-400 bg-[#0a0a0a] md:left-1/2"></div>
       <div className="ml-10 rounded-2xl border border-blue-400/20 bg-white/3 p-6 transition hover:border-blue-400/50 md:col-start-2 md:ml-0">
+      <div className="flex items-center justify-between">
         <span className="text-sm font-medium text-blue-400">Professional Training</span>
-        <h3 className="mt-2 text-xl font-semibold text-[#F5E6CC]">Full-Stack MERN Development</h3>
-        <p className="mt-2 text-sm text-gray-400">Saylani Mass IT Training (SMIT)</p>
+        <span className="text-md font-bold text-blue-400 underline">In Progress</span>
+
+      </div>
+        
+        <h3 className="mt-2 text-xl font-semibold text-[#F5E6CC]">Saylani Mass IT Training (SMIT)</h3>
+        <h4 className="mt-2 text-md font-bold text-gray-400">Web & Mobile App Development · Full-Stack MERN</h4>
         <p className="mt-3 text-sm leading-6 text-gray-300">Learning modern frontend and backend technologies through practical projects.</p>
       </div>
     </div>

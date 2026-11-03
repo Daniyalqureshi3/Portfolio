@@ -21,7 +21,9 @@ const Journey = () => {
       </div>
         <h3 className="mt-2 text-xl font-semibold text-[#F5E6CC]">BS Information Technology Engineering</h3>
         <p className="mt-2 text-md font-bold text-gray-400">Virtual University of Pakistan</p>
-        <p className="mt-3 text-sm leading-6 text-gray-300">Currently pursuing my degree and building a strong foundation in technology.</p>
+        <p className="mt-3 text-sm leading-6 text-gray-300">
+  Building a strong foundation in information technology, with a focus on software development, problem-solving, and understanding modern computing concepts.
+</p>
       </div>
     </div>
 
@@ -36,18 +38,22 @@ const Journey = () => {
         
         <h3 className="mt-2 text-xl font-semibold text-[#F5E6CC]">Saylani Mass IT Training (SMIT)</h3>
         <h4 className="mt-2 text-md font-bold text-gray-400">Web & Mobile App Development · Full-Stack MERN</h4>
-        <p className="mt-3 text-sm leading-6 text-gray-300">Learning modern frontend and backend technologies through practical projects.</p>
+       <p className="mt-3 text-sm leading-6 text-gray-300">
+  Developing practical expertise in modern frontend and backend technologies through hands-on projects, strengthening my skills in application development, API integration, and building scalable web solutions.
+</p>
       </div>
     </div>
 
     <div className="relative md:grid md:grid-cols-2 md:gap-12">
       <div className="absolute left-5 top-6 z-10 h-4 w-4 -translate-x-1/2 rounded-full border-2 border-blue-400 bg-[#0a0a0a] md:left-1/2"></div>
-      <div className="ml-10 rounded-2xl border border-blue-400/20 bg-white/3 p-6 transition hover:border-blue-400/50 md:ml-0">
-        <span className="text-sm font-medium text-blue-400">Practical Experience</span>
-        <h3 className="mt-2 text-xl font-semibold text-[#F5E6CC]">Projects & Hackathon</h3>
-        <p className="mt-2 text-sm text-gray-400">Hands-on Development</p>
-        <p className="mt-3 text-sm leading-6 text-gray-300">Building React applications, integrating APIs, and applying skills to real-world projects.</p>
-      </div>
+<div className="ml-10 rounded-2xl border border-blue-400/20 bg-white/3 p-6 transition hover:border-blue-400/50 md:ml-0">
+  <span className="text-sm font-medium text-blue-400">Technical Experience</span>
+  <h3 className="mt-2 text-xl font-semibold text-[#F5E6CC]">Hackathon Participation</h3>
+  <p className="mt-2 text-sm text-gray-400">SMIT Night Hackathon</p>
+  <p className="mt-3 text-sm leading-6 text-gray-300">
+    Participated in a competitive development environment, collaborating on technical challenges, applying problem-solving skills, and gaining practical exposure to teamwork and project development under time constraints.
+  </p>
+</div>
     </div>
   </div>
 </div>

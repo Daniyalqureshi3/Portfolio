@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Journey from './components/Journey'
 import MagicRings from './components/MagicRings'
 import Navbar from './components/Navbar'
+import Offer from './components/Offer'
 import Project from './components/Project'
 import Technology from './components/Technology'
 
@@ -45,6 +46,7 @@ function App() {
         <Technology/>
         <Journey/>
         <Project/>
+        <Offer/>
       </main>
 
     </>

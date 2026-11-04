@@ -6,8 +6,8 @@ import { GrConfigure } from "react-icons/gr";
 const Technology = () => {
   return (
     <div className='pt-20'>
-<h1 className="font-Panchang text-2xl font-bold tracking-wide text-[#F5E6CC] drop-shadow-[0_0_14px_rgba(245,230,204,0.18)] transition-all duration-300 hover:text-[#FFE4B5] hover:drop-shadow-[0_0_20px_rgba(245,230,204,0.35)] sm:text-3xl md:text-5xl text-center" id='skills'>
-  Technologies <span className="text-white/85">& Expertise</span>
+<h1 className="mb-6 text-center font-Panchang text-2xl font-bold tracking-wide text-[#c4b5fd] drop-shadow-[0_0_14px_rgba(196,181,253,0.2)] transition-all duration-300 hover:scale-[1.03] hover:text-[#ddd6fe] hover:drop-shadow-[0_0_20px_rgba(196,181,253,0.45)] sm:text-3xl md:text-5xl">
+  Technologies   <span className="text-white/85">& Expertise</span>
 </h1>
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-7 mt-11">
     {/* ye mera first div hai jis mai tech on name aen gey is sey uper parent hai */}

@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Offer from './components/Offer'
 import Project from './components/Project'
 import Technology from './components/Technology'
+import Workme from './components/Workme'
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         <Journey/>
         <Project/>
         <Offer/>
+        <Workme/>
       </main>
 
     </>

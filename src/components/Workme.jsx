@@ -75,7 +75,7 @@ const Workme = () => {
         return (
           <div
             key={strength.id}
-            className="group flex min-w-0 flex-col items-start gap-5 rounded-2xl border border-cyan-400/20 bg-white/[0.03] p-5 shadow-lg shadow-black/10 backdrop-blur-[2px] transition-all duration-300 hover:-translate-y-2 hover:border-cyan-300/50 hover:bg-white/[0.06] hover:shadow-xl hover:shadow-cyan-500/10 sm:p-6"
+            className="group flex min-w-0 flex-col items-start gap-5 rounded-2xl border border-cyan-400/20 bg-white/0.03 p-5 shadow-lg shadow-black/10 backdrop-blur-[2px] transition-all duration-300 hover:-translate-y-2 hover:border-cyan-300/50 hover:bg-white/0.06 hover:shadow-xl hover:shadow-cyan-500/10 sm:p-6"
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-cyan-400/20 bg-cyan-400/10 text-cyan-300 transition-all duration-300 group-hover:border-blue-300/50 group-hover:bg-blue-400/20 group-hover:text-blue-200">
               <Icon size={23} />

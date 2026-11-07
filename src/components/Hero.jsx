@@ -46,7 +46,7 @@ const titles = [
   <div className="flex w-full flex-col gap-4">
     <div className="flex items-center justify-center gap-2 lg:justify-start">
   <div className="h-3 w-3 rounded-full bg-blue-400 animate-pulse"></div>
-  <p className="font-stardom font-bold sm:text-sm text-cyan-300 md:text-lg">
+  <p className="font-stardom font-bold sm:text-sm text-cyan-300 md:text-lg" id='home'>
     Available for Work
   </p>
 </div>

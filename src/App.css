@@ -3,8 +3,8 @@
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/geist";
 
-@custom-variant dark (&:is(.dark *));
-
+/* Tailwind CSS v4 directive; suppress generic Stylelint at-rule validation. */
+/* stylelint-disable at-rule-no-unknown */
 @theme inline {
   --font-stardom:"Stardom-Regular",serif;
   --font-ClashDisplay:"ClashDisplay-Variable", serif;
@@ -50,6 +50,7 @@
     --radius-3xl: calc(var(--radius) * 2.2);
     --radius-4xl: calc(var(--radius) * 2.6);
 }
+  /* stylelint-enable at-rule-no-unknown */
 
 :root {
     --background: oklch(1 0 0);

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div>
+    <div className='pt-20 flex flex-col gap-4'>
       
     </div>
   )

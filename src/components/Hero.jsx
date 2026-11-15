@@ -142,7 +142,7 @@ const titles = [
   </div>
 
   {/* Right side: Image */}
-  <div className="w-full">
+  <div className="w-full flex items-center justify-center">
     <h1>Picture abhi baki hai</h1>
   </div>
 

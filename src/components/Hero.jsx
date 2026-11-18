@@ -4,6 +4,7 @@ import { IoLogoGithub } from "react-icons/io5";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import profile from '../assets/profile.png'
 
 const Hero = () => {
 const titles = [
@@ -141,10 +142,16 @@ const titles = [
 
   </div>
 
-  {/* Right side: Image */}
-  <div className="w-full flex items-center justify-center">
-    <h1>Picture abhi baki hai</h1>
+{/* Right side: Image */}
+<div className="w-full flex items-center justify-center">
+  <div className="w-64 h-64 md:w-90 md:h-100 rounded-full overflow-hidden border-4 border-blue-500/40 shadow-[0_0_35px_rgba(59,130,246,0.25)]">
+    <img
+      src={profile}
+      alt="Profile"
+      className="w-full h-full object-cover object-center"
+    />
   </div>
+</div>
 
 </div>
 

@@ -24,7 +24,7 @@ const Footer = () => {
               Daniyal<span className="text-sky-400">.</span>
             </a>
 
-            <p className="max-w-sm font-ClashDisplay text-sm leading-7 tracking-wide text-slate-400">
+            <p className="max-w-sm font-ClashDisplay text-sm leading-7 tracking-wide text-slate-400" id="contact">
               Building modern, responsive, and user-focused web applications
               with clean code, thoughtful design, and modern technologies.
             </p>
